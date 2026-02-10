@@ -1,0 +1,11 @@
+apiVersion: security.demo/v1
+kind: ImageScan
+metadata:
+  name: demo-image
+spec:
+  imageName: "nginx"
+  imageReport:
+    - name: "vulnerabilities"
+      value: "5"
+    - name: "severity"
+      value: "high"

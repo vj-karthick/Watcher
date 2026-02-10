@@ -1,0 +1,104 @@
+2026/02/08 21:41:05 NEW CRD CREATED:
+2026/02/08 21:41:05 {
+  "apiVersion": "security.demo/v1",
+  "kind": "ImageScan",
+  "metadata": {
+    "annotations": {
+      "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"security.demo/v1\",\"kind\":\"ImageScan\",\"metadata\":{\"annotations\":{},\"name\":\"demo-image\",\"namespace\":\"default\"},\"spec\":{\"imageName\":\"nginx\",\"imageReport\":[{\"name\":\"vulnerabilities\",\"value\":\"5\"},{\"name\":\"severity\",\"value\":\"high\"}]}}\n"
+    },
+    "creationTimestamp": "2026-02-08T16:03:15Z",
+    "generation": 1,
+    "managedFields": [
+      {
+        "apiVersion": "security.demo/v1",
+        "fieldsType": "FieldsV1",
+        "fieldsV1": {
+          "f:metadata": {
+            "f:annotations": {
+              ".": {},
+              "f:kubectl.kubernetes.io/last-applied-configuration": {}
+            }
+          },
+          "f:spec": {
+            ".": {},
+            "f:imageName": {},
+            "f:imageReport": {}
+          }
+        },
+        "manager": "kubectl-client-side-apply",
+        "operation": "Update",
+        "time": "2026-02-08T16:03:15Z"
+      }
+    ],
+    "name": "demo-image",
+    "namespace": "default",
+    "resourceVersion": "2761",
+    "uid": "3b762516-27bb-43a8-8e03-eaeac44d04d0"
+  },
+  "spec": {
+    "imageName": "nginx",
+    "imageReport": [
+      {
+        "name": "vulnerabilities",
+        "value": "5"
+      },
+      {
+        "name": "severity",
+        "value": "high"
+      }
+    ]
+  }
+}
+2026/02/08 21:41:05 ------------------------
+2026/02/10 11:45:59 NEW CRD CREATED:
+2026/02/10 11:45:59 {
+  "apiVersion": "security.demo/v1",
+  "kind": "ImageScan",
+  "metadata": {
+    "annotations": {
+      "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"security.demo/v1\",\"kind\":\"ImageScan\",\"metadata\":{\"annotations\":{},\"name\":\"demo-image\",\"namespace\":\"default\"},\"spec\":{\"imageName\":\"nginx\",\"imageReport\":[{\"name\":\"vulnerabilities\",\"value\":\"5\"},{\"name\":\"severity\",\"value\":\"high\"}]}}\n"
+    },
+    "creationTimestamp": "2026-02-08T16:03:15Z",
+    "generation": 1,
+    "managedFields": [
+      {
+        "apiVersion": "security.demo/v1",
+        "fieldsType": "FieldsV1",
+        "fieldsV1": {
+          "f:metadata": {
+            "f:annotations": {
+              ".": {},
+              "f:kubectl.kubernetes.io/last-applied-configuration": {}
+            }
+          },
+          "f:spec": {
+            ".": {},
+            "f:imageName": {},
+            "f:imageReport": {}
+          }
+        },
+        "manager": "kubectl-client-side-apply",
+        "operation": "Update",
+        "time": "2026-02-08T16:03:15Z"
+      }
+    ],
+    "name": "demo-image",
+    "namespace": "default",
+    "resourceVersion": "2761",
+    "uid": "3b762516-27bb-43a8-8e03-eaeac44d04d0"
+  },
+  "spec": {
+    "imageName": "nginx",
+    "imageReport": [
+      {
+        "name": "vulnerabilities",
+        "value": "5"
+      },
+      {
+        "name": "severity",
+        "value": "high"
+      }
+    ]
+  }
+}
+2026/02/10 11:45:59 ------------------------
